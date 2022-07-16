@@ -4,7 +4,8 @@
   "description": "an api based profile badge project.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
