@@ -7,11 +7,10 @@ app.use(morgan("dev"))
 app.use(cors())
 app.use(helmet())
 app.use("/api", router)
+
 app.get("/", (req, res, next) => {
     res.send("hi");
 })
-
-
 
 const port = process.env.PORT || 3000
 app.listen(port, listenHandler)

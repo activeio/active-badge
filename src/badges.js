@@ -42,3 +42,4 @@ function getBadge(badgeLable, badgeValue){
 module.exports={
     getBadge
 }
+
